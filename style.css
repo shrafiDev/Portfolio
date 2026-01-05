@@ -30,10 +30,14 @@
 .btn-primary:hover{
     background-color: darkorange;
 }
-
+/* header */
+.header{
+    background-image: url(./images/developer.png), url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 /* navigatin styling */
 
-/* nav link styling */
 .nav-link{
     color: black;
     transition: 1.0s;
@@ -63,5 +67,28 @@ nav ul li {
 }
 nav ul li a{
     text-decoration: none;
+
+}
+
+/* banner styling */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+    align-items: center;
+}
+.banner-content{
+    max-width: 580px ;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 80px;
+}
+.banner-profile-picture{
+    width: 500px;
 
 }
