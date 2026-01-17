@@ -30,7 +30,8 @@
 .btn-primary:hover{
     background-color: darkorange;
 }
-/* header */
+
+/* header */ 
 .header{
     background-image: url(./images/developer.png), url(./images/header_bg.png);
     background-repeat: no-repeat;
@@ -81,7 +82,7 @@ nav ul li a{
     max-width: 580px ;
 }
 .banner-greetings{
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 600;
 }
 .banner-title{
@@ -90,5 +91,30 @@ nav ul li a{
 }
 .banner-profile-picture{
     width: 500px;
-
+}
+/* main styleing */
+main{
+    max-width: 1140px;
+    margin: auto;
+}
+/* about styling */
+.about{
+    margin-top: 130px ;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+.section-description{
+    font-size: 18px;
+    color: black;
 }
